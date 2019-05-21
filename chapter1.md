@@ -7,6 +7,7 @@
 * 查看正在运行的docker容器：docker ps
 * 移除某一个已经创建的docker容器：docker rm 5d9317491efe\(这个是查出来的container\_id\)
 * 启动指定的docker容器：容器名：`docker start docker_run`，或者ID：docker start 43e3fef2266c
+* 停止某个正在运行的docker容器：docker stop \[NAME\]/\[CONTAINER id\] 强制终止：docker kill \[NAME\]/\[CONTAINER id\]
 
 
 
