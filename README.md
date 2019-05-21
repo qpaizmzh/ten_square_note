@@ -1,3 +1,4 @@
-# My Awesome Book
+# 十次方的笔记
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+这里记录了在学习十次方项目当中的一些新接触的一些笔记
+
