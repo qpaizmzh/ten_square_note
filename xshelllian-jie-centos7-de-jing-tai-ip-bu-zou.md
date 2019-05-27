@@ -18,7 +18,7 @@
   DNS1=116.116.116.116   DNS服务器，一般找你的主要网卡的DNS服务器IP,用于联网                                                              ONBOOT="yes" 用于设置开机启动                                                                                                                                                                                     设置完成之后，按esc，推出编辑模式，再按shift+:两个键，进入vi命令，按wq保存并退出
 * 找到打开网络和共享中心，找到VMNet8的网络连接，设置IPV4协议：                                                                                                                     ![](/assets/import3.png)
 * 在centos中输入 systemctl restart network  重置 IP的设置，在按入ip addr 找到刚刚自己所在设置的网卡看IP地址是否设置成功： ![](/assets/import4.png)
-* 静态设置成功后，在xshell中添加一个新的标签，并在其中如图设置：                                                                                                                         ![](/assets/import5.png)
+* 静态设置成功后，在xshell中添加一个新的标签，并在其中如图设置：                                                                                                                         ![](/assets/import5.png)                                                                           在用户身份验证中，输入连接centos的用户密码，然后就可以成功了：                                                                                                                      ![](/assets/import6.png)
 
 
 
