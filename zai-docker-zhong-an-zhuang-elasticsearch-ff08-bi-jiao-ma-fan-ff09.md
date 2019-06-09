@@ -16,7 +16,8 @@
 ## 安装IK分词器
 
 * 将插件进行解压，并把文件夹复制到XFTP软件中上面提到的能访问的shares文件夹的路径
-* 清楚知道容器的plugins文件夹的路径，具体访问路径如下：docker exec -it tensquare\_elastic\_Search  /bin/bash 
+* 清楚知道容器的plugins文件夹的路径，具体访问路径如下：docker exec -it tensquare\_elastic\_Search  /bin/bash，回车之后再ls，知道plugins的具体路径： /usr/share/elasticsearch/plugins/
+* 使用命令，将ik文件夹复制到该容器的plugins文件夹中：
 
 ---
 
