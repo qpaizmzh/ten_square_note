@@ -18,11 +18,13 @@
 * 将插件进行解压，并把文件夹复制到XFTP软件中上面提到的能访问的shares文件夹的路径
 * 清楚知道容器的plugins文件夹的路径，具体访问路径如下：docker exec -it tensquare\_elastic\_Search  /bin/bash，回车之后再ls，知道plugins的具体路径： /usr/share/elasticsearch/plugins/
 * 使用命令，将ik文件夹复制到该容器的plugins文件夹中：docker cp ik\(就是根目录下的ik文件夹\)  tensquare\_elasticsearch\(容器名\):/usr/share/elasticsearch/plugins/
-* 然后重新启动容器，按照类似的地址进行测试： http://127.0.0.1:9200/\_analyze?analyzer=ik\_max\_word&pretty=true&text=我是程序员
+* 然后重新启动容器，按照类似的地址进行测试： [http://127.0.0.1:9200/\_analyze?analyzer=ik\_max\_word&pretty=true&text=我是程序员](http://127.0.0.1:9200/_analyze?analyzer=ik_max_word&pretty=true&text=我是程序员)
 
 ---
 
 ## 安装header插件
+
+* 先进入上面配置好的在shares路径下的文件，使用vi编辑，添加跨域配置： http.cors.enabled: true http.cors.allow‐origin: "\*"
 
 
 
