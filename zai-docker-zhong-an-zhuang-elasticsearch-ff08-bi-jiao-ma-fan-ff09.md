@@ -25,6 +25,7 @@
 ## 安装header插件
 
 * 先进入上面配置好的在shares路径下的文件，使用vi编辑，添加跨域配置： http.cors.enabled: true http.cors.allow‐origin: "\*"，保存
-* 
+* 在docker中下载header插件，并按照它创建一个新的容器：
+
 
 
